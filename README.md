@@ -2,8 +2,6 @@
 
 An independent Software Engineer who loves to create and share projects about mobile technology! I've enjoyed kotlin and make it the main language in creating a project.
 
-I'm currently active in contributing as Curriculum Developer at <a href="https://github.com/papermintx">@papermintx</a> to build courses in Front-End Apps (Android) and Back-End Service.
-
 - 🌱 I’m currently learning about mobile technology for android/multi platform apps
 - 💬 Feel free to ask me about android development or kotlin
 - 📫 How to reach me: muhamadmuslih720@gmail.com
