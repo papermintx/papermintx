@@ -9,7 +9,7 @@ An independent Software Engineer who loves to create and share projects about mo
 
 ---
 
-## 📌 Featured Projects
+## 📌 My Project
 
 | Project | Description | Screenshot | Link Repository |
 |---------|------------|------------|------------|
