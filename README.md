@@ -11,10 +11,10 @@ An independent Software Engineer who loves to create and share projects about mo
 
 ## 📌 Featured Projects
 
-| Project | Description | Screenshot |
-|---------|------------|------------|
-| **Brofin** | A budgeting application for monthly expenses tracking, house price predictions, and item recommendations based on savings | ![Project 1](https://via.placeholder.com/300x200) |
-| **FlavorQuest** | A food recipe and video search application developed as part of the Android Expert Capstone project at Dicoding | ![Project 2](https://via.placeholder.com/300x200) |
+| Project | Description | Screenshot | Link Repository |
+|---------|------------|------------|------------|
+| **Brofin** | A budgeting application for monthly expenses tracking, house price predictions, and item recommendations based on savings | ![Brofin](https://github.com/papermintx/papermintx/blob/f7923cddca374f8f7a0e66515b9a7af5e546a84e/screenshoot%20brofin/Home%20Screen.jpg) | [Brofin](https://github.com/CP-Finance-Goals) |
+| **FlavorQuest** | A food recipe and video search application developed as part of the Android Expert Capstone project at Dicoding | ![Project 2](https://via.placeholder.com/300x200) | [FlavorQuest](#) |
 
 ---
 
@@ -29,6 +29,5 @@ An independent Software Engineer who loves to create and share projects about mo
 ---
 
 ## 🌍 Reach me on
-- 📧 Email: muhamadmuslih720@gmail.com  
-- 💼 LinkedIn: [LinkedIn Profile](#) *(Add your LinkedIn profile link if available)*  
-- 🐦 Twitter: [Twitter Profile](#) *(Add your Twitter profile link if available)*  
+- 📧 Email: [Email](muhamadmuslih720@gmail.com)
+- 💼 LinkedIn: [LinkedIn Profile](www.linkedin.com/in/muhamad-muslih-a92120275)
