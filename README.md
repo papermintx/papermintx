@@ -4,8 +4,7 @@ An independent Software Engineer who loves to create and share projects about mo
 
 - 🌱 I’m currently learning about mobile technology for Android/multi-platform apps  
 - 💬 Feel free to ask me about Android development or Kotlin  
-- 📫 How to reach me: muhamadmuslih720@gmail.com  
-- ⚡ Fun fact: Novice Pianist  
+- ⚡ Interesting facts: Beginner phone technician
 
 ---
 
