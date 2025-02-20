@@ -12,7 +12,7 @@ An independent Software Engineer who loves to create and share projects about mo
 
 | Project | Description | Screenshot | Link Repository |
 |---------|------------|------------|------------|
-| **Brofin** | A budgeting application for monthly expenses tracking, house price predictions, and item recommendations based on savings | [Brofin Screenshot](https://github.com/papermintx/papermintx/tree/4ac93629efd2273df2e71c0bd2b3b2b891f8058c/screenshoot%20brofin) | [Brofin](https://github.com/CP-Finance-Goals) |
+| **Brofin** | A budgeting application for monthly expenses tracking, house price predictions, and item recommendations based on savings | [Brofin Screenshot](https://github.com/CP-Finance-Goals/Brofin-MD/tree/69ae421eb94863aa13fbe139774245a9e6951900/screenshoot%20brofin) | [Brofin](https://github.com/CP-Finance-Goals) |
 | **FlavorQuest** | A food recipe and video search application developed as part of the Android Expert Capstone project at Dicoding | [FlavorQuest Screenshot](https://github.com/papermintx/FlavorQuestSubmission2/tree/e31dd50d82d67f645d7ab6f2c8e6b12fe104a7a7/screenshoot%20flavorquest) | [FlavorQuest](https://github.com/papermintx/FlavorQuestSubmission2) |
 
 ---
