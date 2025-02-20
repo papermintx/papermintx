@@ -28,5 +28,6 @@ An independent Software Engineer who loves to create and share projects about mo
 ---
 
 ## 🌍 Reach me on
-- 📧 Email: [Email](muhamadmuslih720@gmail.com)
-- 💼 LinkedIn: [LinkedIn Profile](www.linkedin.com/in/muhamad-muslih-a92120275)
+- 📧 Email: [Email](mailto:muhamadmuslih720@gmail.com)
+- 💼 LinkedIn: [LinkedIn Profile](https://www.linkedin.com/in/muhamad-muslih-a92120275/)
+
