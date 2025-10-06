@@ -1,0 +1,468 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Muhamad Muslih - Android Developer & Mobile Technology Enthusiast">
+    <meta name="keywords" content="Android Developer, Kotlin, Mobile Development, Portfolio">
+    <meta name="author" content="Muhamad Muslih">
+    <title>Muhamad Muslih - Android Developer Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&family=Fira+Code:wght@400;500;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Particle Background -->
+    <div id="particles-js"></div>
+
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="container">
+            <div class="nav-brand">
+                <i class="fas fa-code"></i>
+                <span>Muslih.dev</span>
+            </div>
+            <div class="nav-toggle" id="navToggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <ul class="nav-menu" id="navMenu">
+                <li><a href="#home" class="nav-link">Home</a></li>
+                <li><a href="#about" class="nav-link">About</a></li>
+                <li><a href="#skills" class="nav-link">Skills</a></li>
+                <li><a href="#projects" class="nav-link">Projects</a></li>
+                <li><a href="#stats" class="nav-link">Stats</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <div class="hero-text">
+                    <div class="greeting">
+                        <span class="wave">👋</span>
+                        <h1>Hi, I'm <span class="gradient-text">Muhamad Muslih</span></h1>
+                    </div>
+                    <div class="typing-container">
+                        <h2 class="typing-text"></h2>
+                    </div>
+                    <p class="hero-description">
+                        An independent Software Engineer who loves to create and share projects about mobile technology! 
+                        I enjoy working with Kotlin and have made it my primary language for developing innovative Android applications.
+                    </p>
+                    <div class="hero-buttons">
+                        <a href="#projects" class="btn btn-primary">
+                            <i class="fas fa-rocket"></i> View My Work
+                        </a>
+                        <a href="#contact" class="btn btn-secondary">
+                            <i class="fas fa-envelope"></i> Get In Touch
+                        </a>
+                    </div>
+                    <div class="social-links">
+                        <a href="https://github.com/papermintx" target="_blank" class="social-icon">
+                            <i class="fab fa-github"></i>
+                        </a>
+                        <a href="https://www.linkedin.com/in/muhamad-muslih-a92120275/" target="_blank" class="social-icon">
+                            <i class="fab fa-linkedin"></i>
+                        </a>
+                        <a href="mailto:muhamadmuslih720@gmail.com" class="social-icon">
+                            <i class="fas fa-envelope"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="hero-image">
+                    <div class="image-wrapper">
+                        <div class="code-snippet">
+                            <pre><code><span class="keyword">val</span> developer = <span class="keyword">object</span> : <span class="class">AndroidDeveloper</span> {
+    <span class="keyword">override val</span> name = <span class="string">"Muhamad Muslih"</span>
+    <span class="keyword">override val</span> role = <span class="string">"Software Engineer"</span>
+    
+    <span class="keyword">fun</span> <span class="function">getCurrentFocus</span>() = 
+        <span class="string">"Building awesome Android apps! 🚀"</span>
+}</code></pre>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="scroll-indicator">
+                <a href="#about">
+                    <i class="fas fa-chevron-down"></i>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">About Me</h2>
+                <div class="title-underline"></div>
+                <p class="section-subtitle">Get to know me better</p>
+            </div>
+            <div class="about-content">
+                <div class="about-cards">
+                    <div class="about-card">
+                        <div class="card-icon">
+                            <i class="fas fa-seedling"></i>
+                        </div>
+                        <h3>Currently Learning</h3>
+                        <p>Android & Multi-platform Development</p>
+                    </div>
+                    <div class="about-card">
+                        <div class="card-icon">
+                            <i class="fas fa-comments"></i>
+                        </div>
+                        <h3>Ask Me About</h3>
+                        <p>Android, Kotlin, Mobile Tech</p>
+                    </div>
+                    <div class="about-card">
+                        <div class="card-icon">
+                            <i class="fas fa-bolt"></i>
+                        </div>
+                        <h3>Fun Fact</h3>
+                        <p>I fix phones and write code! 🔧📱</p>
+                    </div>
+                    <div class="about-card">
+                        <div class="card-icon">
+                            <i class="fas fa-rocket"></i>
+                        </div>
+                        <h3>Open To</h3>
+                        <p>Collaborate on innovative projects</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Tech Stack & Skills</h2>
+                <div class="title-underline"></div>
+                <p class="section-subtitle">Technologies I work with</p>
+            </div>
+            <div class="skills-content">
+                <div class="skill-category">
+                    <h3><i class="fas fa-code"></i> Languages</h3>
+                    <div class="skill-items">
+                        <div class="skill-item">
+                            <i class="fab fa-java"></i>
+                            <span>Kotlin</span>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fab fa-java"></i>
+                            <span>Java</span>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fab fa-python"></i>
+                            <span>Python</span>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fab fa-js"></i>
+                            <span>JavaScript</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="skill-category">
+                    <h3><i class="fas fa-mobile-alt"></i> Mobile Development</h3>
+                    <div class="skill-items">
+                        <div class="skill-item">
+                            <i class="fab fa-android"></i>
+                            <span>Android</span>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fas fa-layer-group"></i>
+                            <span>Jetpack Compose</span>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fas fa-palette"></i>
+                            <span>Material Design</span>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fas fa-code-branch"></i>
+                            <span>Android Studio</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="skill-category">
+                    <h3><i class="fas fa-database"></i> Database & Backend</h3>
+                    <div class="skill-items">
+                        <div class="skill-item">
+                            <i class="fas fa-fire"></i>
+                            <span>Firebase</span>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fas fa-database"></i>
+                            <span>SQLite</span>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fas fa-door-open"></i>
+                            <span>Room</span>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fas fa-server"></i>
+                            <span>REST API</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="skill-category">
+                    <h3><i class="fas fa-tools"></i> Tools & Technologies</h3>
+                    <div class="skill-items">
+                        <div class="skill-item">
+                            <i class="fab fa-git-alt"></i>
+                            <span>Git</span>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fab fa-github"></i>
+                            <span>GitHub</span>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fas fa-cube"></i>
+                            <span>Gradle</span>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fas fa-sync-alt"></i>
+                            <span>Retrofit</span>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fas fa-bolt"></i>
+                            <span>Coroutines</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Featured Projects</h2>
+                <div class="title-underline"></div>
+                <p class="section-subtitle">Check out my latest work</p>
+            </div>
+            <div class="projects-grid">
+                <!-- Brofin Project -->
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="screenshoot brofin/Home Screen.jpg" alt="Brofin App">
+                        <div class="project-overlay">
+                            <div class="project-links">
+                                <a href="https://github.com/CP-Finance-Goals" target="_blank" class="project-link">
+                                    <i class="fab fa-github"></i> View Code
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <div class="project-header">
+                            <h3>💰 Brofin - Smart Finance Manager</h3>
+                            <div class="project-tags">
+                                <span class="tag">Android</span>
+                                <span class="tag">Kotlin</span>
+                                <span class="tag">ML</span>
+                            </div>
+                        </div>
+                        <p class="project-description">
+                            A comprehensive budgeting application with AI-powered features for monthly expense tracking, 
+                            house price predictions, and intelligent item recommendations based on your savings goals.
+                        </p>
+                        <div class="project-features">
+                            <h4>Key Features:</h4>
+                            <ul>
+                                <li><i class="fas fa-check"></i> Monthly expense tracking & analytics</li>
+                                <li><i class="fas fa-check"></i> ML-powered house price predictions</li>
+                                <li><i class="fas fa-check"></i> Smart item recommendations</li>
+                                <li><i class="fas fa-check"></i> Personalized financial insights</li>
+                            </ul>
+                        </div>
+                        <div class="project-screenshots-toggle">
+                            <button class="btn-toggle" onclick="toggleScreenshots('brofin')">
+                                <i class="fas fa-images"></i> View Screenshots
+                            </button>
+                        </div>
+                        <div id="brofin-screenshots" class="screenshots-gallery hidden">
+                            <div class="screenshots-grid">
+                                <img src="screenshoot brofin/Home Screen.jpg" alt="Home Screen">
+                                <img src="screenshoot brofin/Add Expense Screen.jpg" alt="Expense Screen">
+                                <img src="screenshoot brofin/House Prediction Screen.jpg" alt="Prediction Screen">
+                                <img src="screenshoot brofin/Login Screen.jpg" alt="Login Screen">
+                                <img src="screenshoot brofin/Setting Screen.jpg" alt="Settings Screen">
+                                <img src="screenshoot brofin/Favorite Prediction Screen.jpg" alt="Favorites Screen">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- FlavorQuest Project -->
+                <div class="project-card">
+                    <div class="project-image">
+                        <div class="project-placeholder">
+                            <i class="fas fa-utensils"></i>
+                        </div>
+                        <div class="project-overlay">
+                            <div class="project-links">
+                                <a href="https://github.com/papermintx/FlavorQuestSubmission2" target="_blank" class="project-link">
+                                    <i class="fab fa-github"></i> View Code
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <div class="project-header">
+                            <h3>🍳 FlavorQuest - Recipe Explorer</h3>
+                            <div class="project-tags">
+                                <span class="tag">Android</span>
+                                <span class="tag">Kotlin</span>
+                                <span class="tag">API</span>
+                            </div>
+                        </div>
+                        <p class="project-description">
+                            A modern food recipe and cooking video search application developed as part of the Android Expert 
+                            Capstone project at Dicoding Academy.
+                        </p>
+                        <div class="project-features">
+                            <h4>Key Features:</h4>
+                            <ul>
+                                <li><i class="fas fa-check"></i> Advanced recipe search</li>
+                                <li><i class="fas fa-check"></i> Cooking video tutorials</li>
+                                <li><i class="fas fa-check"></i> Favorite recipes management</li>
+                                <li><i class="fas fa-check"></i> Clean & intuitive UI</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- GitHub Stats Section -->
+    <section id="stats" class="stats">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">GitHub Statistics</h2>
+                <div class="title-underline"></div>
+                <p class="section-subtitle">My coding journey in numbers</p>
+            </div>
+            <div class="stats-content">
+                <div class="stats-grid">
+                    <div class="stat-card">
+                        <img src="https://github-readme-stats.vercel.app/api?username=papermintx&show_icons=true&theme=algolia&include_all_commits=true&count_private=true&hide_border=true&bg_color=0D1117" alt="GitHub Stats">
+                    </div>
+                    <div class="stat-card">
+                        <img src="https://github-readme-streak-stats.herokuapp.com/?user=papermintx&theme=algolia&hide_border=true&background=0D1117" alt="GitHub Streak">
+                    </div>
+                </div>
+                <div class="stats-grid">
+                    <div class="stat-card">
+                        <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=papermintx&layout=compact&langs_count=8&theme=algolia&hide_border=true&bg_color=0D1117" alt="Top Languages">
+                    </div>
+                    <div class="stat-card">
+                        <img src="https://github-readme-activity-graph.vercel.app/graph?username=papermintx&theme=react-dark&hide_border=true&area=true&bg_color=0D1117" alt="Contribution Graph">
+                    </div>
+                </div>
+                <div class="trophies">
+                    <img src="https://github-profile-trophy.vercel.app/?username=papermintx&theme=algolia&no-frame=true&no-bg=false&margin-w=4&row=1&column=7" alt="GitHub Trophies">
+                </div>
+                <div class="contribution-graph">
+                    <img src="https://github-readme-activity-graph.vercel.app/graph?username=papermintx&theme=react-dark&hide_border=true&area=true&custom_title=Contribution%20Graph" alt="Contribution Activity">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Get In Touch</h2>
+                <div class="title-underline"></div>
+                <p class="section-subtitle">Let's connect and create something amazing</p>
+            </div>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <div class="contact-card">
+                        <div class="contact-icon">
+                            <i class="fas fa-envelope"></i>
+                        </div>
+                        <h3>Email</h3>
+                        <a href="mailto:muhamadmuslih720@gmail.com">muhamadmuslih720@gmail.com</a>
+                    </div>
+                    <div class="contact-card">
+                        <div class="contact-icon">
+                            <i class="fab fa-linkedin"></i>
+                        </div>
+                        <h3>LinkedIn</h3>
+                        <a href="https://www.linkedin.com/in/muhamad-muslih-a92120275/" target="_blank">Connect with me</a>
+                    </div>
+                    <div class="contact-card">
+                        <div class="contact-icon">
+                            <i class="fab fa-github"></i>
+                        </div>
+                        <h3>GitHub</h3>
+                        <a href="https://github.com/papermintx" target="_blank">@papermintx</a>
+                    </div>
+                </div>
+                <div class="contact-cta">
+                    <h3>💌 Feel free to reach out for:</h3>
+                    <ul class="cta-list">
+                        <li><i class="fas fa-handshake"></i> Collaboration on Android projects</li>
+                        <li><i class="fas fa-lightbulb"></i> Tech discussions and knowledge sharing</li>
+                        <li><i class="fas fa-code-branch"></i> Open source contributions</li>
+                        <li><i class="fas fa-mobile-alt"></i> Mobile development insights</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-social">
+                    <a href="https://github.com/papermintx" target="_blank" class="social-icon">
+                        <i class="fab fa-github"></i>
+                    </a>
+                    <a href="https://www.linkedin.com/in/muhamad-muslih-a92120275/" target="_blank" class="social-icon">
+                        <i class="fab fa-linkedin"></i>
+                    </a>
+                    <a href="mailto:muhamadmuslih720@gmail.com" class="social-icon">
+                        <i class="fas fa-envelope"></i>
+                    </a>
+                </div>
+                <p class="footer-text">
+                    Made with <i class="fas fa-heart"></i> by <span class="gradient-text">Muhamad Muslih</span>
+                </p>
+                <p class="footer-copyright">
+                    © 2025 All rights reserved.
+                </p>
+                <p class="footer-quote">
+                    ⭐ Don't forget to star my repositories if you find them interesting!
+                </p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Back to Top Button -->
+    <button id="backToTop" class="back-to-top">
+        <i class="fas fa-arrow-up"></i>
+    </button>
+
+    <!-- Scripts -->
+    <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
